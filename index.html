@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Manya D M | Portfolio</title>
+<meta name="description" content="Portfolio of Manya D M, Information Science and Engineering student.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;800&family=Newsreader:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav">
+  <a href="#home" class="logo">Manya D M</a>
+  <button class="menu-btn" aria-label="Toggle menu" aria-expanded="false">Menu</button>
+  <nav id="menu">
+    <a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a>
+    <a href="#projects">Projects</a><a href="#journey">Journey</a><a href="#beyond">Beyond Coding</a><a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+<!-- HOME -->
+<section id="home" class="hero">
+  <div class="hero-text">
+    <h1>Hi, I'm Manya D M! <span class="wave">👋</span></h1>
+    <p class="lead">I'm an Information Science and Engineering student passionate about technology, software development, and solving real-world problems through innovative solutions.</p>
+    <p>I enjoy exploring new technologies, developing projects, and continuously improving my technical skills. I'm excited to learn, collaborate, and turn creative ideas into meaningful applications.</p>
+    <p class="welcome">Welcome to my little corner of the internet!</p>
+    <div class="btns">
+      <a class="btn primary" href="#projects">View my projects</a>
+      <a class="btn" href="#contact">Get in touch</a>
+      <a class="btn" href="images/resume.pdf" download>Download resume</a>
+    </div>
+  </div>
+  <div class="photo-frame">
+    <img src="images/profile.jpg" alt="Portrait of Manya D M" onerror="this.parentElement.classList.add('no-img')">
+    <span class="initials">MD</span>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <h2>About me</h2>
+  <div class="two-col">
+    <div class="prose">
+      <p>I'm an enthusiastic engineering student who enjoys learning how technology can solve everyday problems. My journey in Information Science and Engineering has helped me develop an interest in programming, software development, and artificial intelligence.</p>
+      <p>I believe that every project is an opportunity to learn something new, improve my problem-solving abilities, and transform ideas into practical solutions.</p>
+      <p>Beyond technology, I enjoy reading books, listening to music, exploring new places, and creating memories with friends and family.</p>
+    </div>
+    <aside class="facts">
+      <h3>At a glance</h3>
+      <dl>
+        <dt>Studying</dt><dd>Information Science &amp; Engineering</dd>
+        <dt>College</dt><dd>Bangalore Institute of Technology</dd>
+        <dt>Batch</dt><dd>2023 – 2027</dd>
+        <dt>Interests</dt><dd>Software development, AI, reading, music, travel</dd>
+        <dt>Career goal</dt><dd>To become a skilled software professional, contribute to meaningful projects, and keep growing personally and professionally.</dd>
+      </dl>
+    </aside>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <h2>My technical toolkit</h2>
+  <div class="skill-grid">
+    <div class="skill"><h3>Programming languages</h3><p class="chips"><span>Java</span><span>SQL</span></p></div>
+    <div class="skill"><h3>Web development</h3><p class="chips"><span>HTML</span><span>CSS</span></p></div>
+    <div class="skill"><h3>Databases</h3><p class="chips"><span>SQLite</span><span>SQL</span></p></div>
+    <div class="skill"><h3>Tools</h3><p class="chips"><span>Git</span><span>GitHub</span><span>VS Code</span></p></div>
+    <div class="skill"><h3>Computer science concepts</h3><p class="chips"><span>OOP</span><span>DBMS</span><span>Data Structures</span><span>Computer Networks</span></p></div>
+    <div class="skill"><h3>Professional skills</h3><p class="chips"><span>Communication</span><span>Teamwork</span><span>Problem-solving</span><span>Adaptability</span></p></div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <h2>Projects</h2>
+  <article class="project">
+    <div class="shot"><img src="images/safechaos.png" alt="SafeChaos screenshot" onerror="this.parentElement.classList.add('no-img')"><span>Add screenshot:<br>images/safechaos.png</span></div>
+    <div class="info">
+      <h3>SafeChaos: Chaos Engineering Automation Platform</h3>
+      <p class="chips"><span>Python</span><span>FastAPI</span><span>Streamlit</span></p>
+      <p>A platform that simulates controlled failures, monitors system metrics, identifies safety threshold violations, and generates resilience reports.</p>
+      <p class="highlight"><strong>Key highlight:</strong> Automated experiment execution and application resilience analysis.</p>
+      <a class="btn" href="https://github.com/Prerana-GS/chaos-engineering-platform" target="_blank" rel="noopener">View on GitHub</a>
+    </div>
+  </article>
+  <article class="project flip">
+    <div class="shot"><img src="images/flashcards.png" alt="AI Flashcard Generator screenshot" onerror="this.parentElement.classList.add('no-img')"><span>Add screenshot:<br>images/flashcards.png</span></div>
+    <div class="info">
+      <h3>AI Flashcard Generator</h3>
+      <p class="chips"><span>Python</span><span>Flask</span><span>AI</span><span>SQLite</span></p>
+      <p>A study tool that converts text and PDF documents into summaries, question-and-answer flashcards, and simplified explanations.</p>
+      <p class="highlight"><strong>Key highlight:</strong> AI-assisted learning and document processing.</p>
+    </div>
+  </article>
+</section>
+
+<!-- JOURNEY -->
+<section id="journey">
+  <h2>My journey</h2>
+  <ol class="timeline">
+    <li><time>2023 – 2027</time><h3>B.E. in Information Science &amp; Engineering</h3><p>Bangalore Institute of Technology</p></li>
+    <li><h3>Hackathon participation</h3><p>Participated in the 24hr Hackathon organised by RV College of Engineering.</p></li>
+    <li><time>May 2025</time><h3>Basha Bandhu Hackathon</h3><p>Participated in the hackathon organised by Microsoft.</p></li>
+  </ol>
+</section>
+
+<!-- BEYOND CODING -->
+<section id="beyond">
+  <h2>Beyond coding</h2>
+  <h3 class="sub">Travel &amp; exploration</h3>
+  <div class="gallery">
+    <figure><img src="images/travel1.jpg" alt="Surathkal Beach" onerror="this.parentElement.classList.add('no-img')"><figcaption>Surathkal Beach</figcaption></figure>
+    <figure><img src="images/travel2.jpg" alt="Himavad Gopalaswamy Betta" onerror="this.parentElement.classList.add('no-img')"><figcaption>Himavad Gopalaswamy Betta</figcaption></figure>
+    <figure><img src="images/travel3.jpg" alt="Kodachadri" onerror="this.parentElement.classList.add('no-img')"><figcaption>Kodachadri</figcaption></figure>
+  </div>
+  <div class="two-col mt">
+    <div class="soft">
+      <h3>Books &amp; reading</h3>
+      <ul>
+        <li><strong>Bettada Jeeva</strong> – A heartwarming Kannada novel that beautifully captures the simplicity of life, the beauty of nature, and the true meaning of happiness</li>
+        <li><strong>You Only Live Once</strong> – I recommend this book because it inspires us to step out of our comfort zone, overcome our fears, and live life to the fullest without regretting missed opportunities</li>
+      </ul>
+    </div>
+    <div class="soft">
+      <h3>Music &amp; entertainment</h3>
+      <ul>
+        <li><strong>Nina Kangala</strong> – Siddhartha Belmannu</li>
+        <li><strong>FROM</strong> – I like FROM because its mysterious storyline, creepy atmosphere, and unexpected twists keep me curious about what will happen next. Every episode reveals new clues, making me excited to discover the truth behind the town and its terrifying secrets</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h2>Let's connect</h2>
+  <div class="two-col">
+    <div class="prose">
+      <p>Have an opportunity, a project idea, or just want to say hello? Send me a message.</p>
+      <ul class="links">
+        <li>Email: <a href="mailto:manya31dm@gmail.com">manya31dm@gmail.com</a></li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/manya-d-m-760a28319" target="_blank" rel="noopener">linkedin.com/in/manya-d-m</a></li>
+        <li>GitHub: <a href="https://github.com/manya-dm" target="_blank" rel="noopener">github.com/manya-dm</a></li>
+      </ul>
+    </div>
+    <form id="contact-form">
+      <label>Name<input name="name" required></label>
+      <label>Email<input type="email" name="email" required></label>
+      <label>Message<textarea name="message" rows="4" required></textarea></label>
+      <button class="btn primary" type="submit">Send message</button>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>© <span id="year"></span> Manya D M. Built with HTML, CSS and JavaScript.</footer>
+<script src="script.js"></script>
+</body>
+</html>
